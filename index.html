@@ -11,12 +11,7 @@
     <link rel="icon" href="assets/favicon.ico" />
 
     <!-- Bootstrap core CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
     <link href="./styles.css" rel="stylesheet" />
@@ -30,6 +25,7 @@
     />
   </header>
   <body>
+    <div class="floating-dxdao"></div>
     <div class="square-container-mobile">
       <img src="assets/squares.png" alt="square-davi" class="square-img" />
     </div>
@@ -37,9 +33,9 @@
       <main role="main" class="cover">
         <div class="modal-body row">
           <div class="main-text-container col-md-6">
-            <p class="heading-main-text">THE FUTURE OF DAO GOVERNANCE</p>
+            <p class="heading-main-text">THE NEXT GENERATION OF DAO GOVERNANCE</p>
             <p class="main-text-body">
-              A truly decentralized on-chain governance framework for DAOs.
+              A decentralized on-chain governance interface for DAOs.
             </p>
             <p class="main-text-subtitle">
               Bringing accessible autonomy to the masses
@@ -50,7 +46,7 @@
               role="button"
               target="_blank"
               rel="noreferrer"
-              >TRY THE BETA
+              >TRY THE DAPP
               <img src="assets/arrow.png" alt="arrow" class="arrow" />
             </a>
           </div>
@@ -71,11 +67,11 @@
             class="info-box-item col-md-6"
           />
           <div class="col-md-6 info-box-item">
-            <div class="info-box-title">AUTONOMY FOR ALL</div>
+            <div class="info-box-title">Create action packed proposals</div>
             <p class="info-box-description">
               DAVI makes on-chain governance <strong> accessible</strong>,
-              offering a painless and detailed UI that allows
-              <strong>everybody</strong> to get started with a DAO.
+              whether building proposals or voting on them,
+              <strong>everybody</strong> can partake in governance.
             </p>
           </div>
         </article>
@@ -86,12 +82,16 @@
             class="black-90-mobile info-box-item col-md-6"
           />
           <div class="col-md-6 info-box-item">
-            <div class="info-box-title">FULLY DECENTRALIZED</div>
+            <div class="info-box-title">YOUR DAO YOUR WAY</div>
             <p class="info-box-description">
-              DAVI is <strong>decentralized from front to back</strong>. It
-              enables DAOs to vote in other DAOs and includes social
-              integrations that emphaise user ownership.
-              <strong> On-chain always comes first.</strong>
+              DAVI supports multiple type of DAOs. From normal ERC20, to soulbound, even a hybrid system. 
+              <strong>handle it your way</strong> with DAVI.
+              <br /><strong> Want your DAO on DAVI?</strong> <a
+              href="https://davi.canny.io"
+              role="button"
+              target="_blank"
+              rel="noreferrer">
+              let us know</a>
             </p>
           </div>
           <img
@@ -107,55 +107,163 @@
             class="info-box-item col-md-6"
           />
           <div class="col-md-6 info-box-item">
-            <div class="info-box-title">YOUR DAO YOUR WAY</div>
+            <div class="info-box-title">Social</div>
             <p class="info-box-description">
-              DAVI provides <strong> flexible architecture </strong>
-              that adapts to the logic of your DAO. From soulbound guilds, to
-              advanced Governance 2.0 DAO's,
-              <strong>handle it your way</strong> with DAVI.
+              DAVI recognizes that not everything can be on chain. 
+              So we also include a built in forum closely integrated with governance.<br />
+              Built on orbis and ceramic, decentralization is at the core of what we do.
             </p>
           </div>
         </article>
       </section>
     </div>
     <section class="socials">
-      <div class="socials-section">
-        <a
-          href="https://twitter.com/DXdao_"
-          class="btn-social button btn btn-primary btn-lg"
-          role="button"
-          target="_blank"
-          rel="noreferrer"
-          >TWITTER
-          <img src="assets/arrow.png" alt="arrow" class="arrow" />
-        </a>
-        <a
-          href="https://discord.gg/4QXEJQkvHH"
-          class="btn-social button btn btn-primary btn-lg"
-          role="button"
-          target="_blank"
-          rel="noreferrer"
-          >DISCORD
-          <img src="assets/arrow.png" alt="arrow" class="arrow" />
-        </a>
-        <a
-          href="https://github.com/DXgovernance"
-          class="btn-social button btn btn-primary btn-lg"
-          role="button"
-          target="_blank"
-          rel="noreferrer"
-          >GITHUB
-          <img src="assets/arrow.png" alt="arrow" class="arrow" />
-        </a>
+      <div class="bottom-modal-top">
+        <div
+        class="sub-titles"
+        >Fully Decentralized
+        </div>
+        <div
+        class="sub-title-primary"
+        >Autonomy for all communities
+        </div>
+        <div
+        class="sub-titles"
+        >Your DAO your way
+        </div>
+      </div>    
+      <div class="bottom-modal-bottom">
+        <article class="modal-body row info-box-article">
+          <img
+            src="assets/black-90.png"
+            alt="black-circles"
+            class="black-90-desktop info-box-item col-md-6"
+          />
+          <div class="col-md-6 info-box-item">
+            <div class="info-box-title">Want to see what a DAO can really do?</div>
+            <p class="info-box-description">
+              If you are intrigued by accessible autonomy, flexibility to choose your DAO platform or integrated community tools then give it a go. 
+              <br />DXdao's vision to enable community freedom is being lead by DAVI and we want you to be one of those communities
+            </p>
+            <a
+              href="https://app.projectdavi.eth.limo/#/"
+              class="button btn btn-primary btn-lg"
+              role="button"
+              target="_blank"
+              rel="noreferrer"
+              >Enable sovereignty for your community
+              <img src="assets/arrow.png" alt="arrow" class="arrow" />
+            </a>
+          </div>
+        </article>
       </div>
     </section>
+    <div class="socials-section">
+      <a
+        href="https://twitter.com/ProjectDAVI"
+        class="btn-social button btn btn-primary btn-lg"
+        role="button"
+        target="_blank"
+        rel="noreferrer"
+        >TWITTER
+        <img src="assets/arrow.png" alt="arrow" class="arrow" />
+      </a>
+      <a
+        href="https://discord.gg/4QXEJQkvHH"
+        class="btn-social button btn btn-primary btn-lg"
+        role="button"
+        target="_blank"
+        rel="noreferrer"
+        >DISCORD
+        <img src="assets/arrow.png" alt="arrow" class="arrow" />
+      </a>
+      <a
+        href="https://github.com/DXgovernance"
+        class="btn-social button btn btn-primary btn-lg"
+        role="button"
+        target="_blank"
+        rel="noreferrer"
+        >GITHUB
+        <img src="assets/arrow.png" alt="arrow" class="arrow" />
+      </a>
+    </div>
   </body>
-  <footer>
-    <img
-      src="assets/project_davi_logo_black.svg"
-      alt="project-davi"
-      class="title-image"
-    />
+  <footer class="footer">
+    <div class="link-block">
+      <h2>ABOUT</h2><span class="separator"></span>
+      <a
+        href="https://github.com/DXgovernance"
+        role="button"
+        target="_blank"
+        rel="noreferrer">
+        Github</a>
+      <a
+        href="https://github.com/DXgovernance/dxdao-contracts/tree/develop/docs"
+        role="button"
+        target="_blank"
+        rel="noreferrer">
+        Audits</a>
+      <a
+        href="https://dxgov.info"
+        role="button"
+        target="_blank"
+        rel="noreferrer">
+        Notion</a>
+      <a
+        href="https://davi.canny.io"
+        role="button"
+        target="_blank"
+        rel="noreferrer">
+        Suggest a feature</a><span class="separator"></span>
+    </div>
+    <div class="link-block">
+      <h2>SOCIAL</h2><span class="separator"></span>
+      <a
+        href="https://twitter.com/ProjectDAVI"
+        role="button"
+        target="_blank"
+        rel="noreferrer">
+        Twitter</a>
+      <a
+        href="https://discord.gg/4QXEJQkvHH"
+        role="button"
+        target="_blank"
+        rel="noreferrer">
+        Discord</a>
+      <a
+        href="https://keybase.io/team/dx_dao"
+        role="button"
+        target="_blank"
+        rel="noreferrer">
+        Keybase</a><span class="separator"></span>
+    </div>
+    <div class="link-block">
+      <h2>THE TEAM</h2><span class="separator"></span>
+      <a
+        href="https://app.projectdavi.eth.limo/#/gnosis/0x3f842726188FcD932d43bcA291be28138228e6D9/"
+        role="button"
+        target="_blank"
+        rel="noreferrer">
+        DXgov Guild</a>
+      <a
+        href="https://rossneilson.notion.site/e23da14c4b1441bd933c271cfa0b4ddb?v=81759150e3c14779a9e054fd817e85f4"
+        role="button"
+        target="_blank"
+        rel="noreferrer">
+        Roadmap</a>
+      <a
+        href="https://discord.com/channels/795724884763738173/1014217927324606464"
+        role="button"
+        target="_blank"
+        rel="noreferrer">
+        Releases</a>
+      <a
+        href="https://dxdao.eth.limo"
+        role="button"
+        target="_blank"
+        rel="noreferrer">
+        DXdao</a><span class="separator"></span>
+    </div>
   </footer>
   <script src="https://right-secure.project-davi.dev/script.js" data-site="RJPMQAGT" defer></script>
   <script
